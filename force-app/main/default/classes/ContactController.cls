@@ -3,7 +3,7 @@ public with sharing class ContactController {
     public static list<contact> getContacts(){
         
         //return new list<contact>([select firstname, lastname, email from contact limit 10]);
-        
+        //second.
             throw new AuraHandledException('Forced error');
         
     }
